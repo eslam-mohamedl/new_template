@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import {RouterProvider } from 'react-router-dom';
 import AppRouter from './routes/AppRouter.jsx';
 import '@/styles/index.css';
-import { LanguageProvider } from '@/contexts/languageContext';
+import { LanguageProvider } from '@/contexts/LanguageContext';
 import "./i18n";
 import { ThemeProvider } from './contexts/ThemeContext.jsx';
 createRoot(document.getElementById('root')).render(
