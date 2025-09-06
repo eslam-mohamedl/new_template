@@ -1,5 +1,5 @@
 import React from 'react'
-import { useTheme } from "./../../hooks/useTheme";
+import { useTheme } from "./../../contexts/ThemeContext";
 import * as Icons from "@/assets/icons/icons";
 
 function ButtonTheme() {

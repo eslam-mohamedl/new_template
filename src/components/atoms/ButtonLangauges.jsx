@@ -1,6 +1,6 @@
 import React from 'react'
 import * as Icons from "@/assets/icons/icons";
-import { useLanguage } from "../../hooks/useLangauges";
+import { useLanguage } from "../../contexts/LanguageContext";
 import { useTranslation } from "react-i18next";
 
 

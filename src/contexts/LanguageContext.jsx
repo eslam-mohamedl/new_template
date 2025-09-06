@@ -1,4 +1,4 @@
-import React, { createContext , useEffect } from "react";
+import React, { createContext , useEffect , useContext } from "react";
 import { useTranslation } from "react-i18next";
 
 export const LanguageContext = createContext();
@@ -26,3 +26,4 @@ export const LanguageProvider = ({ children }) => {
   );
 };
 
+export const useLanguage = () => useContext(LanguageContext);
